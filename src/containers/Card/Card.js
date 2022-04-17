@@ -4,7 +4,10 @@ const Card = () => {
   return (
     <div className='card_container'>
       <h2>Services</h2>
-      <p>Lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis nec dictum quam, et rhoncus dui. Cras sed ultricies tortor, ut condimentum ligula.
+      Nullam euismod ultricies turpis a scelerisque.</p>
+      <button>Learn more</button>
     </div>
   )
 }
