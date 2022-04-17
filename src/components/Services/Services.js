@@ -11,7 +11,7 @@ const Services = () => {
                 <Card />
                 <Card />
             </div>
-            <div className='services_description'><h2>Heading</h2>
+            <div className='services_description'><h1>Heading</h1>
             <p>Lorem ipsum</p>
             
             

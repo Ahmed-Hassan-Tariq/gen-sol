@@ -10,4 +10,10 @@
 .card_container:hover{
     transform: scale(1.05);
     transition: 0.25s;
+
+}
+
+.card_container h2 {
+    margin-top: 0.5rem;
+    color: black;
 }
