@@ -1,0 +1,22 @@
+.about_container {
+    background-color: black;
+}
+
+.about_content {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_container h1 {
+    color: white;
+}
+
+.about_description h2 {
+    color: white;
+}
+
+.about_video {
+    color: white;
+}

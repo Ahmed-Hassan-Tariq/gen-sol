@@ -1,0 +1,31 @@
+.services_container {
+    background-image: url(../../Assets/services_background.svg);
+    /* background: rgb(253,254,255);
+    background: linear-gradient(120deg, rgba(253,254,255,1) 45%, rgba(0,0,0,1) 46%); */
+    height: 100vh;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.services_container h1 {
+    color: white;
+    margin: 0;
+}
+.services_content {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}
+
+.services_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services_description {
+    padding: 2rem;
+}
