@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css';
 const Portfolio = () => {
   return (
-    <div className='portfolio_container'>
+    <div className='portfolio_container' id='portfolio'>
         <h1>Portfolio</h1>
         <div className='portfolio_description'>
             <p>
@@ -17,7 +17,7 @@ const Portfolio = () => {
             </p>
         </div>
         <div className='portfolio_slides'>
-            Slides Here
+            Project Slides Component Here
         </div>
 
 

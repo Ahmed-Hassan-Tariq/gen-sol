@@ -15,7 +15,7 @@ const About = () => {
               Donec sagittis nisl eget ligula euismod cursus.
               Vivamus vulputate, turpis sit amet ultricies placerat, lorem urna dapibus libero, et imperdiet erat tortor at diam.
               Pellentesque pharetra quam eros, quis pharetra libero posuere in. In eu facilisis ligula.
-                </p><button>Learn more</button>
+                </p><button>About Us</button>
               </div>
               
             </div>

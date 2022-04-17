@@ -5,7 +5,7 @@ import {SiWhatsapp, SiInstagram, SiFacebook, SiTwitter} from 'react-icons/si';
 import './contact.css';
 export const Contact = () => {
   return (
-    <div className='contact_container'>
+    <div className='contact_container' id='contact'>
         <h1>Contact Us</h1>
         <div className='contact_details'>
             <div className='contact_details_icons'><MdEmail className='contact_details_icon_logo' size='50px'/></div>

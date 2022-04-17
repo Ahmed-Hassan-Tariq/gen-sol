@@ -29,14 +29,10 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
-    /* margin-top: 20%; */
     background-color: white;
-    width: 60%;
-    height: 50%;
     color: white;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -64,12 +60,14 @@
 }
 
 .blogs_container_team_cards {
+    padding: 1rem;
     background-color: white;
     display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 300px;
-    width: 200px;
-    color: black;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
 }
+
+
 
 
