@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/gen-sol/static/css/main.661f4020.css",
-    "main.js": "/gen-sol/static/js/main.7d4d70a3.js",
+    "main.js": "/gen-sol/static/js/main.e05778cf.js",
     "static/media/gen1logo_transparent.svg": "/gen-sol/static/media/gen1logo_transparent.1a01064d99593440bc24e8c32f83afb5.svg",
     "index.html": "/gen-sol/index.html",
     "static/media/header_background.svg": "/gen-sol/static/media/header_background.d0de80c3ff7d0e5a5092.svg",
     "static/media/blogs_background.svg": "/gen-sol/static/media/blogs_background.6f097a5dbf52b3e106e6.svg",
     "static/media/services_background.svg": "/gen-sol/static/media/services_background.d46d186f3e7d4e441364.svg",
     "main.661f4020.css.map": "/gen-sol/static/css/main.661f4020.css.map",
-    "main.7d4d70a3.js.map": "/gen-sol/static/js/main.7d4d70a3.js.map"
+    "main.e05778cf.js.map": "/gen-sol/static/js/main.e05778cf.js.map"
   },
   "entrypoints": [
     "static/css/main.661f4020.css",
-    "static/js/main.7d4d70a3.js"
+    "static/js/main.e05778cf.js"
   ]
 }
