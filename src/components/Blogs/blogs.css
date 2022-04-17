@@ -4,7 +4,7 @@
     background: linear-gradient(120deg, rgba(253,254,255,1) 45%, rgba(0,0,0,1) 46%); */
     height: 100vh;
     background-size: cover;
-    padding: 2rem;
+    padding-bottom: 5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
