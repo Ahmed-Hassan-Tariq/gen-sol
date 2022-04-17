@@ -1,0 +1,75 @@
+.blogs_container {
+    background-image: url(../../Assets/blogs_background.svg);
+    /* background: rgb(253,254,255);
+    background: linear-gradient(120deg, rgba(253,254,255,1) 45%, rgba(0,0,0,1) 46%); */
+    height: 100vh;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.blogs_container h1 {
+    color: white;
+}
+
+.blogs_content {
+    /* display: flex; */
+    background-color: #232323;
+    width: 60%;
+    height: 50%;
+    color: white;
+    border-radius: 25px;
+}
+
+.blogs_container_team {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* margin-top: 20%; */
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+
+.blogs_container_team h1 {
+    color: black;
+}
+
+
+.blogs_container_team button {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    font-weight: 800;
+    height: 40px;
+    width: 130px;
+    border-radius: 25px;
+    border-color: black;
+    cursor: pointer;
+    
+}
+
+.blogs_container_team button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.blogs_container_team_cards {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 200px;
+    color: black;
+}
+
+

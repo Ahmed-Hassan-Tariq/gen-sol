@@ -1,0 +1,12 @@
+.portfolio_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio_description {
+    display: flex;
+    width: 60%;
+}
