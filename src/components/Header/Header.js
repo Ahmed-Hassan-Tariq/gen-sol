@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
-import logo from '../../Assets/gen1logo_transparent.png';
+import logo from '../../Assets/gen1logo_transparent.svg';
 import './header.css';
 export const Header = () => {
   return (

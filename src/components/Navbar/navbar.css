@@ -51,7 +51,7 @@
 .navbar_links_black a:after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 85%;
     transform: scaleX(0);
     height: 5px;
     bottom: 0;
@@ -70,7 +70,7 @@
 .navbar_links_white a:after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 85%;
     transform: scaleX(0);
     height: 5px;
     bottom: 0;

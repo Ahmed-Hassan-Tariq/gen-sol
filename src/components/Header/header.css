@@ -1,38 +1,40 @@
 .header_container {
     background-image: url(../../Assets/header_background.svg);
-    /* background: rgb(253,254,255);
-    background: linear-gradient(120deg, rgba(253,254,255,1) 45%, rgba(0,0,0,1) 46%); */
+    /* background: rgb(253,254,255); */
+    /* background: linear-gradient(112deg, rgba(253,254,255,1) 42%, rgba(0,0,0,1) 42%); */
     /* height: 100vh; */
   background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  -webkit-background-size: 100% 100%;
+  /* -o-background-size: 100% 100%; */
+  /* -webkit-background-size: 100% 100%; */
   background-size: cover;
 }
 
 .header_content {
-    padding-bottom: 5rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    
+    
     /* align-items: center; */
 }
 .header_logo {
     display: flex;
     flex-direction: column;
-    /* background-color: grey; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .header_logo img {
-    height: 550px;
-    width: 550px;
+    height: 450px;
+    width: 450px;
 }
 
 .header_title {
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 5rem;
     color: white;
-    padding: 7rem;
-    /* margin-left: 5rem; */
-    /* background-color: grey; */
 }
 
 .header_logo button {
@@ -43,7 +45,6 @@
     border-radius: 25px;
     border-color: black;
     cursor: pointer;
-    margin-right: 5rem;
 }
 
 .header_logo button:hover {
