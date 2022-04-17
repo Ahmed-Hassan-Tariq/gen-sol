@@ -62,7 +62,7 @@
   }
 
 
-  .navbar_links_white a:hover:after {
+.navbar_links_white a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

@@ -6,18 +6,68 @@
 .about_content {
     display: flex;
     flex: row;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .about_container h1 {
+    padding-top: 1.5rem;
     color: white;
 }
 
+.about_description {
+    width: 50%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.about_description_content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 10%;
+}
+
 .about_description h2 {
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.about_description_paragraph {
+    margin: 0;
     color: white;
 }
 
 .about_video {
+    width: 50%;
     color: white;
 }
+
+.about_video_icon {
+    cursor: pointer;
+}
+.about_video_icon:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.about_description_content button {
+    margin-top: 2rem;
+    color: white;
+    background-color: transparent;
+    font-weight: 800;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border-color: white;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 2rem;
+}
+
+.about_description_content button:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+    transition: 0.2s;
+}
+
+

@@ -47,6 +47,8 @@
 }
 
 
+
+
 .header_logo img {
     width: 50%;
     margin-left: 15%;
@@ -68,4 +70,5 @@
 .header_logo button:hover {
     background-color: black;
     color: white;
+    transition: 0.2s;
 }
