@@ -1,4 +1,6 @@
 import React from 'react'
+import Slide from '../../containers/Slides/Slide';
+
 import './portfolio.css';
 const Portfolio = () => {
   return (
@@ -17,7 +19,7 @@ const Portfolio = () => {
             </p>
         </div>
         <div className='portfolio_slides'>
-            Project Slides Component Here
+        {/* <Slide  /> */}
         </div>
 
 

@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    /* margin-bottom: 7rem; */
+    justify-content: center;
 }
 
 .blogs_container h1 {
@@ -17,7 +18,9 @@
 }
 
 .blogs_content {
-    /* display: flex; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
     background-color: #232323;
     width: 60%;
     height: 50%;
@@ -41,7 +44,7 @@
 }
 
 
-.blogs_container_team button {
+.blogs_member_button {
     margin-bottom: 1rem;
     background-color: transparent;
     font-weight: 800;
@@ -53,19 +56,19 @@
     
 }
 
-.blogs_container_team button:hover {
+.blogs_member_button:hover {
     background-color: black;
     color: white;
     transition: 0.2s;
 }
 
 .blogs_container_team_cards {
-    padding: 1rem;
+    /* padding: 1rem; */
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 

@@ -14,7 +14,7 @@ const Navbar = () => {
             <a href='#services'>Services</a>
         </div>
         <div className='navbar_links_white'>
-            <a href='#blog'>Blogs</a>
+            <a href='#blogs'>Blogs</a>
             <a href='#portfolio'>Portfolio</a>
             <a href='#contact'>Contact Us</a>
         </div>
